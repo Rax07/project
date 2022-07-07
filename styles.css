@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
+*{
+background-color: black;
+font-family: "exo 2";
+}
+
+h1{
+  color: white;
+  margin: 1px;
+  font-size: 40px;
+}
+
+.hello{
+  color: white;
+  margin: 1px;
+  font-size: 40px;
+}
+
+.name{
+  font-size: 70px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.name:hover{
+  transform: translate(0, -10px);
+  transition: transform ease 300ms;
+  }
+
+.dev{
+  color: #FFCE45;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+
+.dev:hover{
+  transform: translate(0, -10px);
+  transition: transform ease 300ms;
+  }
+
+  .message{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .message:hover{
+    transform: translate(0, -10px);
+    transition: transform ease 300ms;
+    }
+
+h3{
+color:white;
+
+}
+
+
+.icon{
+  padding: 7px;
+  margin: 5px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.html{
+  border: 2px solid #e44d26;
+  background-color: #e44d26;
+}
+
+.css{
+  border: 2px solid #2590cb;
+  background-color: #2590cb;
+}
+
+.js{
+  border: 2px solid #d4bc1c;
+  background-color: #d4bc1c;
+}
+
+.bootstrap{
+  border: 2px solid #654295;
+  background-color: #654295;
+}
+
+.react{
+  border: 2px solid #22ccf0;
+  background-color: black;
+  color: #22ccf0;
+}
+
+.python{
+  border: 2px solid #3776ab;
+  background-color: black;
+  color: #ffd140;
+}
+
+.firstDiv{
+  position: absolute;
+  bottom: 60%;
+  left: 19%;
+  width: 380px;
+  height: 100px;
+  color: white;
+}
+
+.about{
+border: 1px solid;
+border-radius: 40px;
+padding: 6px;
+color: white;
+width: 200px;
+height: 40px;
+color: #7F8487;
+border-color: #1B2430;
+}
+
+.about:hover{
+  background-color: #FFCE45 ;
+  transform: translate(0, -10px);
+  transition: transform ease 300ms;
+  cursor: pointer;
+  color: black;
+}
+.icon:hover{
+transform: translate(0, -10px);
+transition: transform ease 300ms;
+}
+
+.buttonDiv{
+  position: absolute;
+  bottom: 1%;
+  left: 19%;
+  width: 500px;
+  height: 100px;
+  color: white;
+}
+
+.about{
+  width: 110px;
+}
+
+.connectDiv{
+  position: absolute;
+  bottom: 1%;
+  left: 19%;
+  width: 380px;
+  height: 100px;
+  color: white;
+}
+
+.logo{
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+  color: white;
+}
+
+.wave{
+height: 60px;
+}
+
+.code{
+  position: absolute;
+  right: 20%;
+  top: 30%;
+  height: 500px;
+}
+
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  font-size: 1px;
+  margin-left: 10px;
+
+}
+
+
+.icon-div{
+  margin-right: 4px;
+  height: 17px;
+}
+
+.topnav a {
+  font-family: "calibri";
+  float: right;
+  display: block;
+  color: #7F8487;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+.topnav a:hover {
+  background-color: black;
+  color: #FFCE45;
+  transform: translate(0, -10px);
+  transition: transform ease 300ms;
+
+}
+
+.aboutDiv{
+  position: absolute;
+  bottom: 55%;
+  margin-left: 19%;
+  margin-right: 15%;
+  width: auto;
+  height: 100px;
+  color: white;
+}
+
+.am{
+  color: #FFCE45;
+  font-size: 40px;
+}
+
+.aboutme{
+  font-size: 20px;
+}
+
+.hi{
+  color: #FFCE45;
+}
+
+.iconContact{
+  padding: 2px;
+  height: 40px;
+  width: 40px;
+  border:solid 1px #0a192f; 
+  border-radius: 50px;
+  background-color: #0a192f;
+}
+
+.iconContact:hover{
+  background-color: #06283D;
+  transform: translate(0, -10px);
+  transition: transform ease 300ms;
+}
+
+
+
+.contactDiv{
+  position: absolute;
+  bottom: 55%;
+  margin-left: 19%;
+  margin-right: 15%;
+  width: auto;
+  height: 100px;
+  color: white;
+}
+
+.messageDiv{
+  position: absolute;
+  bottom: 55%;
+  margin-left: 50%;
+  margin-right: 15%;
+  width: auto;
+  height: 120px;
+  color: white;
+}
+
+.secondDiv{
+  position: absolute;
+  bottom: 2%;
+  right: 1%;
+  color: white;
+}
+
+.social{
+  color: #7F8487;
+}
+
+.space{
+  color: black;
+}
+
+.social-icon{
+height: 25px;
+margin-right: 4px;
+color: #7F8487;
+
+}
+
+.social-icon:hover{
+  transform: translate(0, -10px);
+transition: transform ease 300ms;
+cursor: pointer;
+color: white;
+}
+
+@media only screen and (max-width: 900px) {
+
+  .aboutDiv{
+    position: absolute;
+    bottom: 75%;
+    margin-left: 19%;
+    margin-right: 15%;
+    width: auto;
+    height: 100px;
+    color: white;
+  }
+
+  .aboutDiv, .name{
+    font-size: 40px;
+  }
+
+.aboutme{
+  font-size: 21px;
+}
+}
